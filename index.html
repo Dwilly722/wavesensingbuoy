@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wave Sensing Buoy - EGR375</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      gap: 10px;
+    }
+    .image-row img {
+      max-width: 30%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wave Sensing Buoy</h1>
+    <h3>EGR375 Mechatronics Project</h3>
+  </header>
+
+  <div class="image-row">
+    <img src="circuits.jpg" alt="Circuit Wiring">
+    <img src="Screenshot 2025-05-06 194817.jpg" alt="Buoy Design Render">
+    <img src="buoy.JPG" alt="Buoy in Water">
+  </div>
+
+  <div class="content">
+    <p>
+      The wave sensing buoy is a project fundamentally designed with safety in mind. Utilizing components such as the GAC mini IMU, Elegoo Uno, four RGD LEDs, an LCD screen, and polyurethane expanding foam, our buoy has the ability to establish a baseline wave acceleration, sense the presence of dangerous waves, and display color-coordinated warnings based on low, medium, and high-strength waves.
+    </p>
+    <p>
+      It also stores this information on the LCD screen over 16 frames of time intervals based on user preferences. These multifaceted functions allow the device to act both as a method of promoting safety and as a means of collecting valuable research data on wave patterns in specific areas.
+    </p>
+  </div>
+</body>
+</html>
